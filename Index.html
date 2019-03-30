@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css">
+
   <title>Story Tellers Abroad</title>
 </head>
 <body>
@@ -15,25 +16,48 @@
       <li>MY ACCOUNT<li>
     </ul>
   </header>
-  <div class="filters">
-    <div class="Subject">
-      <div id="myBtnContainerSubject">
-        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-        <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-        <button class="btn" onclick="filterSelection('animals')"> Animals</button>
-        <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
-        <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+  <h2 onclick="openFilter()">Filters</h2>
+    <div id="mySidenav" class="filters">
+      <div id="myBtnContainer">
+        <img src="images/close.png" class="close" onclick="closeFilter()"></h3>
+        <div class="subjects">
+          <h2>Subject</h2>
+
+          <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+          <button class="btn" onclick="filterSelection('trinidad')"> Trinidad</button>
+          <button class="btn" onclick="filterSelection('peru')"> Peru</button>
+          <button class="btn" onclick="filterSelection('nicaragua')"> Nicaragua</button>
+          <button class="btn" onclick="filterSelection('Togo')"> Togo</button>
+        </div>
+        <div class="locations">
+          <h2>Location</h2>
+
+          <button class="btn" onclick="filterSelection('all')"> Show all</button>
+          <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+          <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+          <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+          <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+        </div>
       </div>
     </div>
-    <div class="Location">
-      <div id="myBtnContainerLocation">
-        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-        <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-        <button class="btn" onclick="filterSelection('animals')"> Animals</button>
-        <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
-        <button class="btn" onclick="filterSelection('colors')"> Colors</button>
-      </div>
+
+    <div class="container">
+
+      <div class="filterDiv colors fruits">Orange</div>
+      <div class="filterDiv cars">Volvo</div>
+      <div class="filterDiv colors">Red</div>
+      <div class="filterDiv cars animals">Mustang</div>
+      <div class="filterDiv colors">Blue</div>
+      <div class="filterDiv animals">Cat</div>
+      <div class="filterDiv animals">Dog</div>
+      <div class="filterDiv fruits">Melon</div>
+      <div class="filterDiv fruits animals">Kiwi</div>
+      <div class="filterDiv fruits">Banana</div>
+      <div class="filterDiv fruits">Lemon</div>
+      <div class="filterDiv animals">Cow</div>
     </div>
-  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.7.0/d3.min.js"></script>
+  <script src="scripts.js"></script>
 </body>
+
 </html>
