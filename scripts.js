@@ -1,5 +1,9 @@
 filterSelection("all")
 
+$.get("tpl/video.tpl.html", function(data) {
+  var template = Handlebars.compile(data);
+});
+
 function openFilter() {
   document.getElementById("mySidenav").style.height = "300px";
 }
