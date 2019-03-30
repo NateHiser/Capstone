@@ -1,16 +1,12 @@
-filterSelection("all")
-
-$.get("tpl/video.tpl.html", function(data) {
-  var template = Handlebars.compile(data);
-});
-
 function openFilter() {
-  document.getElementById("mySidenav").style.height = "300px";
+  document.getElementById("myBtnContainer").style.height = "300px";
 }
 
 function closeFilter() {
-  document.getElementById("mySidenav").style.height = "0px";
+  document.getElementById("myBtnContainer").style.height = "0px";
 }
+
+filterSelection("all")
 
 function filterSelection(c) {
   var x, i;
@@ -44,6 +40,7 @@ function w3RemoveClass(element, name) {
 }
 
 var btnContainer = document.getElementById("myBtnContainer");
+console.log(btnContainer)
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function(){
