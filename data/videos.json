@@ -1,52 +1,34 @@
 {
   "videos": [
     {
-    "tag": "filterDiv addiction redemption trinidad show",
-    "videoImg": "<img src=images/hopelessEvangelist.png/>",
-    "name": "Hopeless Evangelist",
-    "location": "Trinidad"
+      "tag": "filterDiv addiction redemption trinidad show",
+      "videoImg": "<img src=images/hopelessEvangelist.png/>",
+      "name": "Hopeless Evangelist",
+      "location": "Trinidad"
     },
     {
-    "tag": "filterDiv addiction redemption trinidad show",
-    "videoImg": "<img src=images/freeIndeed.png/>",
-    "name": "Free Indeed",
-    "location": "Trinidad"
+      "tag": "filterDiv addiction redemption trinidad show",
+      "videoImg": "<img src=images/creativeServant.png/>",
+      "name": "Creative Servant",
+      "location": "Trinidad"
     },
     {
-    "tag": "filterDiv suicide missionary trinidad show",
-    "videoImg": "<img src=images/hopelessEvangelist.png/>",
-    "name": "Hopeless Evangelist",
-    "location": "Trinidad"
+      "tag": "filterDiv addiction redemption trinidad show",
+      "videoImg": "<img src=images/simpleService.png/>",
+      "name": "Simple Service",
+      "location": "Trinidad"
     },
     {
-    "tag": "filterDiv addiction redemption trinidad show",
-    "videoImg": "<img src=images/hopelessEvangelist.png/>",
-    "name": "Hopeless Evangelist",
-    "location": "Trinidad"
+      "tag": "filterDiv addiction redemption trinidad show",
+      "videoImg": "<img src=images/homecoming.png/>",
+      "name": "Homecoming",
+      "location": "Trinidad"
     },
     {
-    "tag": "filterDiv addiction redemption trinidad show",
-    "videoImg": "<img src=images/hopelessEvangelist.png/>",
-    "name": "Hopeless Evangelist",
-    "location": "Trinidad"
-    },
-    {
-    "tag": "filterDiv addiction redemption trinidad show",
-    "videoImg": "<img src=images/hopelessEvangelist.png/>",
-    "name": "Hopeless Evangelist",
-    "location": "Trinidad"
-    },
-    {
-    "tag": "filterDiv addiction redemption trinidad show",
-    "videoImg": "<img src=images/hopelessEvangelist.png/>",
-    "name": "Hopeless Evangelist",
-    "location": "Trinidad"
-    },
-    {
-    "tag": "filterDiv addiction redemption trinidad show",
-    "videoImg": "<img src=images/hopelessEvangelist.png/>",
-    "name": "Hopeless Evangelist",
-    "location": "Trinidad"
-    },
+      "tag": "filterDiv addiction redemption trinidad show",
+      "videoImg": "<img src=images/freeIndeed.png/>",
+      "name": "Free Indeed",
+      "location": "Trinidad"
+    }
   ]
 }
