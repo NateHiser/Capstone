@@ -11,30 +11,31 @@
 </head>
 <body>
   <header>
+    <div class="secondaryHeader"></div>
     <h1><img src="images/storyTellersLogo.jpg"/></h1>
   </header>
-
+  <div class="mainPage">
   <h2 onclick="openFilter()">Filters</h2>
 
   <div id="myBtnContainer" class="filters">
     <img src="images/close.png" class="close" onclick="closeFilter()">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
     <div class="subject">
-      <h2> Subject </h2>
-      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <h3> Subject </h3>
       <button class="btn" onclick="filterSelection('cars')"> Cars</button>
       <button class="btn" onclick="filterSelection('animals')"> Animals</button>
       <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
       <button class="btn" onclick="filterSelection('colors')"> Colors</button>
     </div>
     <div class="locations">
-      <h2>Locations</h2>
-      <button class="btn" onclick="filterSelection('all')"> Show all</button>
+      <h3>Locations</h3>
       <button class="btn" onclick="filterSelection('trinidad')"> Trinidad</button>
       <button class="btn" onclick="filterSelection('peru')"> Peru</button>
       <button class="btn" onclick="filterSelection('nicaragua')"> Nicaragua</button>
-      <button class="btn" onclick="filterSelection('Togo')"> Togo</button>
+      <button class="btn" onclick="filterSelection('togo')"> Togo</button>
     </div>
   </div>
+</div>
 
   <div class="container">
 
@@ -87,52 +88,3 @@
 </body>
 
 </html>
-
-<!--  {
-    "videos": [
-      ,
-  {
-  "tag": "filterDiv addiction redemption trinidad show",
-  "videoImg": "<img src=images/freeIndeed.png/>",
-  "name": "Free Indeed",
-  "location": "Trinidad"
-  },
-  {
-  "tag": "filterDiv suicide missionary trinidad show",
-  "videoImg": "<img src=images/hopelessEvangelist.png/>",
-  "name": "Hopeless Evangelist",
-  "location": "Trinidad"
-  },
-  {
-  "tag": "filterDiv addiction redemption trinidad show",
-  "videoImg": "<img src=images/hopelessEvangelist.png/>",
-  "name": "Hopeless Evangelist",
-  "location": "Trinidad"
-  },
-  {
-  "tag": "filterDiv addiction redemption trinidad show",
-  "videoImg": "<img src=images/hopelessEvangelist.png/>",
-  "name": "Hopeless Evangelist",
-  "location": "Trinidad"
-  },
-  {
-  "tag": "filterDiv addiction redemption trinidad show",
-  "videoImg": "<img src=images/hopelessEvangelist.png/>",
-  "name": "Hopeless Evangelist",
-  "location": "Trinidad"
-  },
-  {
-  "tag": "filterDiv addiction redemption trinidad show",
-  "videoImg": "<img src=images/hopelessEvangelist.png/>",
-  "name": "Hopeless Evangelist",
-  "location": "Trinidad"
-  },
-  {
-  "tag": "filterDiv addiction redemption trinidad show",
-  "videoImg": "<img src=images/hopelessEvangelist.png/>",
-  "name": "Hopeless Evangelist",
-  "location": "Trinidad"
-  },
-]
-}
--->

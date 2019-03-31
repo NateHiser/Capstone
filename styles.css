@@ -1,35 +1,10 @@
-.close{
-  width:30px;
-  margin: 15px 0;
-}
+@import url('https://fonts.googleapis.com/css?family=Lato|Sree+Krushnadevaraya');
 
-.filters {
-  padding: 0 15px;
-  height: 0;
-  width: 100%;
-  overflow: hidden;
-  transition: 0.5s;
-  background-color: #00B5E3;
-}
-
-.filterDiv {
-  float: left;
-  background-color: #2196F3;
-  color: #ffffff;
-  width: 100px;
-  line-height: 100px;
-  text-align: center;
-  margin: 2px;
-  display: none;
-}
-
-.show {
-  display: block;
-}
-
-.container {
-  margin-top: 20px;
-  overflow: hidden;
+body{
+  font-size: 62.5%;
+  font-family: lato;
+  margin: 0 auto;
+  width:1720px;
 }
 
 .btn {
@@ -47,4 +22,57 @@
 .btn.active {
   background-color: #666;
   color: white;
+}
+
+.close{
+  width:30px;
+  margin: 15px 0;
+}
+
+.container {
+  display: flex;
+  justify-content:space-around;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  width:1200px;
+  overflow: hidden;
+}
+
+.filterDiv {
+  margin-top: 20px;
+  width: 350px;
+  display: none;
+}
+
+.filterDiv img{
+  width: 350px;
+}
+
+.filters {
+  padding: 0 15px;
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+  transition: 0.5s;
+  background-color: #00B5E3;
+}
+
+h1 img{
+  width:150px;
+  margin-left: 785px;
+}
+
+.mainPage {
+  width:1200px;
+  margin:0 auto;
+}
+
+.secondaryHeader{
+  width:100%;
+  height:50px;
+  background-color:#1C3963;
+}
+
+.show {
+  display: block;
 }
