@@ -9,82 +9,84 @@
   <script src="scripts.js"></script>
   <title>Story Tellers Abroad</title>
 </head>
-<body>
-  <header>
-    <div class="secondaryHeader"></div>
-    <h1><img src="images/storyTellersLogo.jpg"/></h1>
-  </header>
-  <div class="mainPage">
-  <h2 onclick="openFilter()">Filters</h2>
-
-  <div id="myBtnContainer" class="filters">
-    <img src="images/close.png" class="close" onclick="closeFilter()">
-    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-    <div class="subject">
-      <h3> Subject </h3>
-      <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-      <button class="btn" onclick="filterSelection('animals')"> Animals</button>
-      <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
-      <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+  <body>
+    <header>
+      <div class="secondaryHeader"></div>
+      <h1><img src="images/storyTellersLogo.jpg"/></h1>
+    </header>
+    <div class="banner">
+      <h2>VIDEOS</h2>
     </div>
-    <div class="locations">
-      <h3>Locations</h3>
-      <button class="btn" onclick="filterSelection('trinidad')"> Trinidad</button>
-      <button class="btn" onclick="filterSelection('peru')"> Peru</button>
-      <button class="btn" onclick="filterSelection('nicaragua')"> Nicaragua</button>
-      <button class="btn" onclick="filterSelection('togo')"> Togo</button>
+    <div id="myBtnContainer" class="filters">
+      <img src="images/close.png" class="close" onclick="closeFilter()">
+      <button class="all btn active" onclick="filterSelection('all')"> Show all</button>
+      <div class="subject">
+        <h3> Subject </h3>
+        <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+        <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+        <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+        <button class="btn" onclick="filterSelection('colors')"> Colors</button>
+      </div>
+      <div class="locations">
+        <h3>Locations</h3>
+        <button class="btn" onclick="filterSelection('trinidad')"> Trinidad</button>
+        <button class="btn" onclick="filterSelection('peru')"> Peru</button>
+        <button class="btn" onclick="filterSelection('nicaragua')"> Nicaragua</button>
+        <button class="btn" onclick="filterSelection('togo')"> Togo</button>
+      </div>
     </div>
-  </div>
-</div>
+    <div class="mainPage">
 
-  <div class="container">
+    <h2 onclick="openFilter()">Filters</h2>
 
-  </div>
+    <div class="container">
 
-    <script>
-    filterSelection("all")
+    </div>
 
-    function filterSelection(c) {
-      var x, i;
-      x = document.getElementsByClassName("filterDiv");
-      if (c == "all") c = "";
-      for (i = 0; i < x.length; i++) {
-        w3RemoveClass(x[i], "show");
-        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-      }
-    }
+    </div>
+      <script>
+      filterSelection("all")
 
-    function w3AddClass(element, name) {
-      var i, arr1, arr2;
-      arr1 = element.className.split(" ");
-      arr2 = name.split(" ");
-      for (i = 0; i < arr2.length; i++) {
-        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-      }
-    }
-
-    function w3RemoveClass(element, name) {
-      var i, arr1, arr2;
-      arr1 = element.className.split(" ");
-      arr2 = name.split(" ");
-      for (i = 0; i < arr2.length; i++) {
-        while (arr1.indexOf(arr2[i]) > -1) {
-          arr1.splice(arr1.indexOf(arr2[i]), 1);
+      function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("filterDiv");
+        if (c == "all") c = "";
+        for (i = 0; i < x.length; i++) {
+          w3RemoveClass(x[i], "show");
+          if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
         }
       }
-      element.className = arr1.join(" ");
-    }
 
-        var btnContainer = document.getElementById("myBtnContainer");
-        var btns = btnContainer.getElementsByClassName("btn");
-        for (var i = 0; i < btns.length; i++) {
-          btns[i].addEventListener("click", function(){
-            var current = document.getElementsByClassName("active");
-            current[0].className = current[0].className.replace(" active", "");
-            this.className += " active";
-              });
-            }
-  </script>
-</body>
+      function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+        }
+      }
 
+      function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);
+          }
+        }
+        element.className = arr1.join(" ");
+      }
+
+          var btnContainer = document.getElementById("myBtnContainer");
+          var btns = btnContainer.getElementsByClassName("btn");
+          for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function(){
+              var current = document.getElementsByClassName("active");
+              current[0].className = current[0].className.replace(" active", "");
+              this.className += " active";
+                });
+              }
+    </script>
+  </body>
 </html>
