@@ -4,85 +4,113 @@
       "tag": "filterDiv addiction redemption trinidad show",
       "videoImg": "<img src=images/hopelessEvangelist.png>",
       "name": "Hopeless Evangelist",
-      "location": "Trinidad"
+      "location": "Trinidad",
+      "link": "hopelessEvangelist",
+      "time": "3:40"
     },
     {
-      "tag": "filterDiv education missionary  trinidad show",
+      "tag": "filterDiv education missionary trinidad show",
       "videoImg": "<img src=images/creativeServant.png>",
       "name": "Creative Servant",
-      "location": "Trinidad"
+      "location": "Trinidad",
+      "link": "creativeServant",
+      "time": "4:48"
     },
     {
       "tag": "filterDiv addiction redemption trinidad show",
       "videoImg": "<img src=images/simpleService.png>",
       "name": "Simple Service",
-      "location": "Trinidad"
+      "location": "Trinidad",
+      "link": "simpleService",
+      "time": "3:59"
     },
     {
       "tag": "filterDiv addiction redemption trinidad show",
       "videoImg": "<img src=images/homecoming.png>",
       "name": "Homecoming",
-      "location": "Trinidad"
+      "location": "Trinidad",
+      "link": "homecoming",
+      "time": "3:49"
     },
     {
       "tag": "filterDiv addiction redemption trinidad show",
       "videoImg": "<img src=images/freeIndeed.png>",
       "name": "Free Indeed",
-      "location": "Trinidad"
+      "location": "Trinidad",
+      "link": "freeIndeed",
+      "time": "3:12"
     },
     {
       "tag": "filterDiv addiction redemption peru show",
       "videoImg": "<img src=images/myList.png>",
       "name": "My List",
-      "location": "Peru"
+      "location": "Peru",
+      "link": "myList",
+      "time": "2:57"
     },
     {
       "tag": "filterDiv addiction redemption peru show",
       "videoImg": "<img src=images/transformadaEnUnTaxi.png>",
       "name": "Transformada en un Taxi",
-      "location": "Peru"
+      "location": "Peru",
+      "link": "transformadaEnUnTaxi",
+      "time": "3:03"
     },
     {
       "tag": "filterDiv addiction redemption peru show",
       "videoImg": "<img src=images/soldierForChrist.png>",
       "name": "Soldier For Christ",
-      "location": "Peru"
+      "location": "Peru",
+      "link": "soldierForChrist",
+      "time": "2:57"
     },
     {
       "tag": "filterDiv addiction redemption peru show",
       "videoImg": "<img src=images/lookingForAnswers.png>",
       "name": "Looking For Answers",
-      "location": "Peru"
+      "location": "Peru",
+      "link": "lookingForAnswers",
+      "time": "3:46"
     },
     {
       "tag": "filterDiv addiction redemption peru show",
       "videoImg": "<img src=images/mediocrityToMinistry.png>",
       "name": "A Life of Mediocrity to a Life of Ministry",
-      "location": "Peru"
+      "location": "Peru",
+      "link": "mediocrityToMinistry",
+      "time": "4:20"
     },
     {
       "tag": "filterDiv addiction redemption peru show",
       "videoImg": "<img src=images/changeOfHeart.png>",
       "name": "A Change of Heart",
-      "location": "Peru"
+      "location": "Peru",
+      "link": "changeOfHeart",
+      "time": "3:56"
     },
     {
       "tag": "filterDiv addiction redemption peru show",
       "videoImg": "<img src=images/newCreation.png>",
       "name": "A New Creation",
-      "location": "Peru"
+      "location": "Peru",
+      "link": "newCreation",
+      "time": "4:09"
     },
     {
       "tag": "filterDiv addiction redemption peru show",
       "videoImg": "<img src=images/everyGoodGift.png>",
       "name": "Every Good Gift",
-      "location": "Peru"
+      "location": "Peru",
+      "link": "everyGoodGift",
+      "time": "5:10"
     },
     {
       "tag": "filterDiv addiction redemption togo show",
       "videoImg": "<img src=images/kondo.png>",
       "name": "KONDO",
-      "location": "Togo"
+      "location": "Togo",
+      "link": "kondo",
+      "time": "4:55"
     }
   ]
 }
