@@ -1,6 +1,6 @@
 
 function openFilter() {
-  document.getElementById("myBtnContainer").style.height = "300px";
+  document.getElementById("myBtnContainer").style.height = "600px";
 }
 
 function closeFilter() {

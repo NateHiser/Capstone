@@ -4,6 +4,7 @@ body{
   font-size: 62.5%;
   font-family: lato;
   margin: 0 auto;
+  background-color: #FBFBFB;
 }
 
 a{
@@ -11,13 +12,17 @@ a{
   color:black;
 }
 
-.all{
+.filters .all{
+  width:80px;
+  height:40px;
   margin-left: 20px;
+  background-color: white;
+  color:#00B5E3;
 }
 
 .banner {
   border-top: 10px solid #0000;
-  border-bottom:15px solid #1C3963;
+  border-bottom: 10px solid #1C3963;
   margin-top: 0px;
   width:100%;
   background-image: url(images/banner.jpg);
@@ -27,20 +32,30 @@ a{
 }
 
 .banner h2{
-    font-family:'Noto Sans TC';
-    font-weight:400;
-    display: flex;
-    justify-content: center;
-    font-size: 12em;
-    color: white;
+  font-family:'Noto Sans TC';
+  font-weight:400;
+  display: flex;
+  justify-content: center;
+  font-size: 12em;
+  color: white;
 }
 
 .btn {
-  border: none;
+  border: 2px solid white;
   outline: none;
-  padding: 12px 16px;
-  background-color: #f1f1f1;
+  background-color: #00B5E3;
   cursor: pointer;
+  width:175px;
+  color:#00B5E3;
+  font-weight: bold;
+  text-align: center;
+  margin:20px;
+}
+
+.btn p{
+  margin-top: -3px;
+  width:175px;
+  background-color: white;
 }
 
 .btn:hover {
@@ -49,12 +64,17 @@ a{
 
 .btn.active {
   background-color: #666;
-  color: white;
+  color:#00B5E3;
+}
+
+.filters .btn img {
+  margin:0;
+  width: 175px;
+  height:175px;
 }
 
 .close{
   width:30px;
-  margin: 15px 0;
 }
 
 .container {
@@ -66,7 +86,16 @@ a{
   overflow: hidden;
 }
 
-.filterDiv {
+.data {
+  background-color: #222222;
+}
+
+.data header{
+  background-color: white;
+  border-bottom:10px solid #1C3963;
+}
+
+.filterDiv{
   position: relative;
   margin: 2%;
   overflow: hidden;
@@ -74,25 +103,29 @@ a{
   width: 35%;
   display: none;
   margin-bottom:30px;
+  padding-bottom: 15px;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-.filterDiv img {
-  max-width: 100%;
+.filterDiv p{
+  padding:10px 20px;
 }
 
-.filterDiv img:hover{
-    -webkit-filter: grayscale(100%);
-    transform: scale(1.01);
+.filterDiv:hover{
+  border: 1px #BCBCBC solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-filter: grayscale(100%);
+  transform: scale(1.01);
 }
 
 .filterDiv .name{
-  margin-top:-5px;
-  padding-left: 5px;
+  margin-top: 15px;
+  padding: 0 20px;
 }
 
 .filters {
   padding: 0 150px;
-  height: 0;
   width: 100%;
   overflow: hidden;
   transition: 0.5s;
@@ -100,8 +133,16 @@ a{
 }
 
 .filters img{
-  margin-left: 300px;
+  margin-left: 200px;
   width:20px;
+}
+
+.filterType{
+  display:flex;
+  flex-flow: row wrap;
+  width:100%;
+  margin-left:10%;
+  width: 1435px;
 }
 
 footer {
@@ -116,6 +157,7 @@ h1 img{
 }
 
 h2{
+  margin-top: 0px;
   font-size: 1.8em;
 }
 
@@ -125,9 +167,12 @@ h4{
 }
 
 .info{
-  padding: 5px;
   display:flex;
   justify-content: space-between;
+}
+
+.locations{
+  margin-left: 60px;
 }
 
 .mainPage {
@@ -139,6 +184,12 @@ h4{
     margin-left: 20px;
 }
 
+.open {
+  border-top: 3px solid #00B5E3;
+  width: 63px;
+  padding-left: 10px;
+}
+
 p {
   font-size: 1.4em;
   margin:0;
@@ -146,8 +197,13 @@ p {
 
 .secondaryHeader{
   width:100%;
-  height:55px;
+  height:65px;
   background-color:#1C3963;
+}
+
+.secondaryHeader img{
+  width:100px;
+  margin: 10px 380px;
 }
 
 .show {
@@ -158,6 +214,39 @@ p {
   margin-left:0;
 }
 
-video{
-  width:800px;
+.video{
+  margin-top: 20px;
+}
+
+.videoPage{
+  width:1000px;
+  margin: 0 auto;
+  color: white;
+}
+
+.videoPage .description{
+  display: flex;
+  font-size: 1.2em;
+  font-family: Georgia;
+  line-height: 3em;
+  padding-left: 50px;
+  margin-top: 50px;
+}
+
+.publishInfo{
+  background-color: #111111;
+  padding:15px 35px 10px 15px;
+}
+
+.videoPage .videoDescription{
+  width:65%;
+  margin-right: 25px;
+}
+
+.videoPage h3{
+  width:650px;
+  margin: 0 auto;
+  font-size: 4em;
+  padding: 20px 0 30px 20px;
+  border-bottom: 1px solid #444444;
 }

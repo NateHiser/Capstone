@@ -1,9 +1,42 @@
-<video controls>
-  <source src="{{vidLink}}">
-</video>
-<h3>
-  {{name}}
-</h3>
-<p>
-  {{description}}
-</p>
+<header>
+  <div class="secondaryHeader"><img src="../images/abwe-white.png"/></div>
+  <h1><a href="../index.html"><img src="../images/storyTellersLogo.jpg"/></a></h1>
+</header>
+<div class="videoPage">
+  <h3>
+    {{name}}
+  </h3>
+  <div class="video" ><iframe src="https://player.vimeo.com/video/{{vidLink}}" width="960" height="540" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+  <div class="description">
+    <p class="videoDescription">
+      {{description}}
+    </p>
+    <div class="publishInfo">
+      <h4>Created By</h4>
+      <p>{{author}}</p>
+      <h4>Published On</h4>
+      <p>{{published}}</p>
+      <h4>Location</h4>
+      <p>{{location}}</p>
+      <h5 class="learnMore">Learn More About {{location}}</h5>
+    </div>
+  </div>
+  <div class="suggestedVideos">
+      <a class="suggested simpleService" href="../videos/simpleService.html">
+        <div class="tplImg">
+          <img src="../images/simpleService.png"/>
+        </div>
+        <div class="info">
+          <div class="location">
+            <p>Trinidad</p>
+          </div>
+          <div class="time">
+            <p>3:59</p>
+          </div>
+        </div>
+        <div class="name">
+          <h4>Simple Service</h4>
+        </div>
+      </a>
+  </div>
+</div>
